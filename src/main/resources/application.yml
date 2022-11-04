@@ -5,3 +5,10 @@ spring:
     password: root
   liquibase:
     change-log: classpath:/db/changelog/27-01-changelog.xml
+
+
+  server:
+    port: 8081
+  jwt:
+    secret: 7e\87gh96@.~*#ht
+    expiration: 330000

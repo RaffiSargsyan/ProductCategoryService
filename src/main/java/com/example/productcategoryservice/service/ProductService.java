@@ -1,11 +1,9 @@
 package com.example.productcategoryservice.service;
 
 import com.example.productcategoryservice.entity.Product;
-import com.example.productcategoryservice.repository.CategoryRepository;
 import com.example.productcategoryservice.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 
